@@ -1,0 +1,31 @@
+.register{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lottie{
+    height: 400px;
+}
+
+.register input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(8, 8, 8);
+}
+
+.login input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(8, 8, 8);
+}
+
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.register h1{
+    font-size: 25px;
+
+}
